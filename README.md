@@ -3,73 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AltSchool Africa Courses</title>
+    <title>ALT/SOE/024/2911</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0047AB;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 0.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #0047AB;
+        }
+        section {
+            padding: 2rem;
+        }
+        #back-to-top {
+            display: block;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>AltSchool Africa Course List</h1>
-    
-    <h2>School of Engineering</h2>
-    <table border="1">
-        <tr>
-            <th>Course Name</th>
-            <th>School</th>
-        </tr>
-        <tr>
-            <td>Frontend Engineering</td>
-            <td>School of Engineering</td>
-        </tr>
-        <tr>
-            <td>Backend Engineering</td>
-            <td>School of Engineering</td>
-        </tr>
-        <tr>
-            <td>Cloud Engineering</td>
-            <td>School of Engineering</td>
-        </tr>
-        <tr>
-            <td>Cybersecurity</td>
-            <td>School of Engineering</td>
-        </tr>
-    </table>
-    
-    <h2>School of Product</h2>
-    <table border="1">
-        <tr>
-            <th>Course Name</th>
-            <th>School</th>
-        </tr>
-        <tr>
-            <td>Product Design</td>
-            <td>School of Product</td>
-        </tr>
-        <tr>
-            <td>Marketing</td>
-            <td>School of Product</td>
-        </tr>
-        <tr>
-            <td>Management</td>
-            <td>School of Product</td>
-        </tr>
-    </table>
 
-    <h2>School of Data</h2>
-    <table border="1">
-        <tr>
-            <th>Course Name</th>
-            <th>School</th>
-        </tr>
-        <tr>
-            <td>Data Analysis</td>
-            <td>School of Data</td>
-        </tr>
-        <tr>
-            <td>Data Science</td>
-            <td>School of Data</td>
-        </tr>
-        <tr>
-            <td>Data Engineering</td>
-            <td>School of Data</td>
-        </tr>
-    </table>
+<header>
+    <h1>ALT/SOE/024/2911</h1>
+    <p>OLATUBOSUN EBENEZER OLUWAFEMI</p>
+    <p>Today's Date: <script>document.write(new Date().toDateString());</script></p>
+</header>
+
+<nav>
+    <a href="#biography">Biography</a>
+    <a href="#Goal">Goal</a>
+</nav>
+
+<section id="biography">
+    <h2>Biography</h2>
+    <p>My name is <strong>Olatubosun Ebenezer Oluwafemi</strong>, a native of Ogbomoso land, Oyo State. I had my formal education in Lagos State. I studied Computer science in the polytehnic and university level. I served in Anambra state for my NYSC. I currently work as a Technical support engineer at Tek-experts.</p>
+</section>
+
+<section id="Goal"> 
+    <h2>Goal</h2>
+        <ul>
+        <li>First of all, complete my program at Altschool.</li>
+        <li>Gain required knowledge useful in my track.</li>
+        <li>Participate in all activities.</li>
+        <li>Collaborate with felloe students in my learning circle.</li>
+        <li>Learn, Unlearn, and relearn.</li>
+    </ul>
+</section>
+
+<div id="back-to-top">
+    <a href="#top">Back to Top</a>
+</div>
+
+<footer>
+    <p>&copy;ALT/SOE/024/2911</p>
+</footer>
+
 </body>
 </html>
